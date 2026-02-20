@@ -1,0 +1,44 @@
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+
+    --bg-tag-card: rgba(0, 0, 0, 0.5);
+    --bg-active-item: #2957ba;
+    --p-size: 0.875rem;
+    --color-primary: #fff;
+    /*color-scheme: light dark;*/
+    color: rgba(255, 255, 255, 0.87);
+    --main-bg: #242424;
+    --img-bg: url("/img/background.jpg");
+    --weight-default: 400;
+    --weight-bold: 700;
+
+    /*serie bg*/
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--main-bg);
+}
+
+.hidden {
+    display: none;
+}
+
+.not_found {
+    margin-top: 60px;
+}
+
+.app_nf {
+    width: 100%;
+    align-items: center;
+    height: 85vh;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
