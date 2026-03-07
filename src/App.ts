@@ -1,8 +1,8 @@
-import mapRouter from "./router/map.router.ts";
-import "./components/NotFound/NotFound.ts";
-import "./components/NavBar/NavBar.ts";
-import "./components/AppFooter/AppFooter.ts";
-import routerResolver from "./shared/resolver/router.resolver.ts";
+import mapRouter from "./legacy/router/map.router.ts";
+import "./legacy/components/NotFound/NotFound.ts";
+import "./legacy/components/NavBar/NavBar.ts";
+import "./legacy/components/AppFooter/AppFooter.ts";
+import routerResolver from "./legacy/shared/resolver/router.resolver.ts";
 
 const App = async () => {
   const path = globalThis.location.pathname;

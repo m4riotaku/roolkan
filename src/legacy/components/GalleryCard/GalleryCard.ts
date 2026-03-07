@@ -1,5 +1,5 @@
 // import "../CustomLink/CustomLink.ts";
-import type { Serie } from "../../shared/types.d.ts";
+import type { Serie } from "../../shared/types";
 import { starSvg } from "../../configs/assets.ts";
 
 const GalleryCard = (prop: Serie) => {

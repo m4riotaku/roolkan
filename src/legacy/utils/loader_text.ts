@@ -1,4 +1,4 @@
-import type { ResultLoader } from "../shared/types.d.ts";
+import type { ResultLoader } from "../legacy/shared/types";
 
 const loader_text = async (path: string): Promise<ResultLoader<string>> => {
   try {

@@ -1,5 +1,5 @@
 import { bookMark } from "../../services/bookmark.service.ts";
-import type { AtachSerie, BookMark } from "../../shared/types.d.ts";
+import type { AtachSerie, BookMark } from "../../shared/types";
 import { chapter_list, data_serie } from "./data_serie.ts";
 
 export class ViewSerie extends HTMLElement {

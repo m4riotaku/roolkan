@@ -1,5 +1,5 @@
 import { bookMark } from "../../services/bookmark.service.ts";
-import type { Headers_chapter } from "../../shared/types.d.ts";
+import type { Headers_chapter } from "../../shared/types";
 
 export class ChapterSerie extends HTMLElement {
   private _data: string;

@@ -1,8 +1,6 @@
-import type { ResultLoader } from "../shared/types.d.ts";
+import type { ResultLoader } from "../legacy/shared/types";
 
-const loader_json = async <T>(
-  path: string,
-): Promise<ResultLoader<T> | ResultLoader<string>> => {
+const loader_html = async (path: string): Promise<ResultLoader<string>> => {
   try {
     const response = await fetch(path);
     if (!response.ok) {
@@ -11,10 +9,10 @@ const loader_json = async <T>(
         result: `Failed to load JSON file: ${path}`,
       };
     }
-    const data = await response.json();
+    const data = await response.text();
     return {
       success: true,
-      result: data as T,
+      result: data,
     };
   } catch (_: unknown) {
     return {
@@ -24,4 +22,4 @@ const loader_json = async <T>(
   }
 };
 
-export default loader_json;
+export default loader_html;

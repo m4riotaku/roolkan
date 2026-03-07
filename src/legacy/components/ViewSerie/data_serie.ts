@@ -1,5 +1,5 @@
 import { visibilityOffSvg, visibilitySvg } from "../../configs/assets.ts";
-import type { BookMark } from "../../shared/types.d.ts";
+import type { BookMark } from "../../shared/types";
 
 const data_serie = {
   id_serie: "",

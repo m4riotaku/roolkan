@@ -1,7 +1,7 @@
 import loader_text from "../utils/loader_text.ts";
 import { ChapterSerie } from "../components/ChapterSerie/ChapterSerie.ts";
 import loader_json from "../utils/loader_json.ts";
-import type { Headers_chapter } from "../shared/types.d.ts";
+import type { Headers_chapter } from "../shared/types";
 
 // Fixed: Se cambió history.pushState por history.replaceState
 const ChapterRoute = async (path: string) => {

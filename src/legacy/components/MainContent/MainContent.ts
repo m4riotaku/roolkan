@@ -1,5 +1,5 @@
 import { HTMLMainContent } from "../../configs/components.ts";
-import type { Serie } from "../../shared/types.d.ts";
+import type { Serie } from "../../shared/types";
 import { SERIES_LN_JSON } from "../../configs/data.ts";
 import GalleryCard from "../GalleryCard/GalleryCard.ts";
 import loader_text from "../../utils/loader_text.ts";

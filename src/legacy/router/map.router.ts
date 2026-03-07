@@ -1,6 +1,6 @@
 import Home from "../router/home.route.ts";
 import UserRoute from "../router/user.route.ts";
-import type { Router } from "../shared/types.d.ts";
+import type { Router } from "../shared/types";
 import ChapterRoute from "./chapter.route.ts";
 import LoginRoute from "./login.route.ts";
 import Viewer from "./viewer.route.ts";

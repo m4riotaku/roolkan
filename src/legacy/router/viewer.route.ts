@@ -1,5 +1,5 @@
 import { ViewSerie } from "../components/ViewSerie/ViewSerie.ts";
-import type { AtachSerie } from "../shared/types.d.ts";
+import type { AtachSerie } from "../shared/types";
 import loader_json from "../utils/loader_json.ts";
 
 // Fixed: Se cambió history.pushState por history.replaceState
