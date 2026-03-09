@@ -1,6 +1,6 @@
 import { create_book } from "../application/create_book";
 import { get_book_by_id, get_book_by_title } from "../application/get_book";
-import { get_all_books } from "../application/get_books";
+import { get_all_books } from "../application/list_books";
 import type { Book } from "../domain/book";
 import { BookRespositoryJson } from "../infrastructure/storage/book.repository.json";
 

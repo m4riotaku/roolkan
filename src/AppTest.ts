@@ -2,7 +2,6 @@
 import "./legacy/components/NotFound/NotFound.ts";
 import "./legacy/components/NavBar/NavBar.ts";
 import "./legacy/components/AppFooter/AppFooter.ts";
-//import routerResolver from "./legacy/shared/resolver/router.resolver.ts";
 import { getRoute } from "./infrastructure/routing/map.router.ts";
 
 const App = async () => {
